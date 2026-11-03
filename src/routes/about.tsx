@@ -12,7 +12,6 @@ import {
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { SectionHeading } from "@/components/site/SectionHeading";
-import { BrushBand } from "@/components/site/BrushBand";
 import { PageHero } from "@/components/site/PageHero";
 import { Gallery } from "@/components/site/Gallery";
 import { Testimonial } from "@/components/site/Testimonial";
@@ -267,7 +266,6 @@ function About() {
       <Testimonial />
       <Gallery />
       <Footer />
-      <BrushBand className="hidden" />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import {
-  ArrowRight,
   GraduationCap,
   HeartHandshake,
   HandHeart,
@@ -256,9 +255,6 @@ function Home() {
       <Gallery />
       <ContactSection />
       <Footer />
-      <span className="hidden">
-        <ArrowRight />
-      </span>
     </div>
   );
 }

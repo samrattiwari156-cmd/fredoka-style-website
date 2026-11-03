@@ -18,8 +18,8 @@ const PHOTOS = [
 export function Gallery() {
   return (
     <section className="bg-white">
-      <div className="bg-brand-maroon pb-44 pt-10 text-center">
-        <BrushBand className="absolute" />
+      <div className="bg-brand-maroon pb-48 pt-4 text-center">
+        <BrushBand className="text-white" />
         <p className="flex items-center justify-center gap-2 font-script text-3xl text-white md:text-4xl">
           <Camera className="h-6 w-6" strokeWidth={1.6} /> Our Gallery
         </p>
@@ -27,7 +27,7 @@ export function Gallery() {
           Gallery
         </h2>
       </div>
-      <div className="mx-auto -mt-36 max-w-7xl px-4 pb-20">
+      <div className="mx-auto -mt-40 max-w-7xl px-4 pb-20">
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
           {PHOTOS.map((src, i) => (
             <div key={i} className="overflow-hidden rounded-xl shadow-md">

@@ -34,7 +34,7 @@ export function PageHero({
         <circle cx="60" cy="60" r="40" fill="none" stroke="currentColor" strokeWidth="1.5" />
       </svg>
 
-      <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-24 md:px-8 md:pb-20 md:pt-32">
+      <div className="relative mx-auto max-w-7xl px-4 pb-16 pt-24 md:ml-56 md:px-8 md:pb-20 md:pt-32 lg:ml-72">
         <p className="flex items-center gap-2 text-sm font-bold tracking-wide text-white/70">
           HOME <ChevronRight className="h-4 w-4 text-brand-yellow" />
           <span className="text-brand-yellow">{crumb}</span>

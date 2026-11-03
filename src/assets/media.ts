@@ -34,6 +34,6 @@ export const media = {
   medical: medical.url,
   oldage: oldage.url,
   school: school.url,
-  village: village.url,
+  village: hero2.url,
   volunteer3: volunteer3.url,
 };

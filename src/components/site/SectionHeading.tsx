@@ -25,7 +25,7 @@ export function SectionHeading({
         <HandHeart className="h-6 w-6 shrink-0" strokeWidth={1.6} /> {script}
       </p>
       <h2
-        className={`mt-2 font-display text-3xl font-semibold leading-snug text-white md:text-[44px] ${
+        className={`mt-2 font-display text-3xl font-semibold leading-snug md:text-[44px] ${
           tone === "light" ? "text-foreground" : "text-white"
         }`}
       >

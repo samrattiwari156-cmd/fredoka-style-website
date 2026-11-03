@@ -35,9 +35,7 @@ export function Footer() {
   return (
     <footer className="bg-brand-dark text-white">
       {/* CTA strip */}
-      <div className="text-brand-dark">
-        <BrushEdge className="text-white" />
-      </div>
+      <BrushEdge className="text-brand-dark" />
       <div className="mx-auto max-w-7xl px-4 pb-4 pt-6 md:pt-2">
         <div className="flex flex-col items-center gap-6 md:flex-row md:gap-10">
           <p className="text-center font-script text-3xl text-brand-yellow md:text-left">

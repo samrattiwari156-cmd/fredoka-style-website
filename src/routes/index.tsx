@@ -2,6 +2,7 @@ import { createFileRoute, Link } from "@tanstack/react-router";
 import {
   GraduationCap,
   HeartHandshake,
+  Heart,
   HandHeart,
   Stethoscope,
 } from "lucide-react";

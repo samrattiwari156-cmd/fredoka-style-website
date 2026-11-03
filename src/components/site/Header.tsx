@@ -5,10 +5,10 @@ import {
   Facebook,
   Heart,
   Instagram,
+  AtSign,
   Mail,
   Menu,
   Phone,
-  Threads,
   Twitter,
   User,
   X,
@@ -45,7 +45,7 @@ export function SocialIcons({ className = "" }: { className?: string }) {
         <Twitter className="h-4 w-4" />
       </a>
       <a href="https://threads.net" aria-label="Threads" className={icon}>
-        <Threads className="h-4 w-4" />
+        <AtSign className="h-4 w-4" />
       </a>
     </div>
   );

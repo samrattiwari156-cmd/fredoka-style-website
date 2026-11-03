@@ -1,5 +1,4 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { FileText } from "lucide-react";
 import { Header } from "@/components/site/Header";
 import { Footer } from "@/components/site/Footer";
 import { SectionHeading } from "@/components/site/SectionHeading";
@@ -7,6 +6,7 @@ import { PageHero } from "@/components/site/PageHero";
 import { Gallery } from "@/components/site/Gallery";
 import { Testimonial } from "@/components/site/Testimonial";
 import { ContactSection } from "@/components/site/ContactSection";
+import { CAUSES, DonateCard } from "@/components/site/PageHero";
 
 export const Route = createFileRoute("/donations")({
   head: () => ({
@@ -43,16 +43,8 @@ function Donations() {
             }
           />
           <div className="mt-12 grid gap-8 md:grid-cols-3">
-            {[
-              { c: "Old Age Homes", t: "Support elders with food, medicines, companionship and safe shelter." },
-              { c: "Educational", t: "Fund school kits, books and free classes for underprivileged children." },
-              { c: "Orphanages", t: "Give orphaned children a childhood filled with care, learning and hope." },
-            ].map((item) => (
-              <div key={item.c} className="text-center">
-                <FileText className="mx-auto h-6 w-6 text-brand-yellow" />
-                <h3 className="mt-2 font-display text-lg font-semibold text-foreground">{item.c}</h3>
-                <p className="mx-auto mt-2 max-w-xs text-[13px] font-semibold leading-6 text-foreground/70">{item.t}</p>
-              </div>
+            {CAUSES.map((c) => (
+              <DonateCard key={c.title} cause={c} />
             ))}
           </div>
         </div>

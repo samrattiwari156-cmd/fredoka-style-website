@@ -1,14 +1,44 @@
-# Welcome to your Lovable project
+# Fredoka Style Website
+
+please make the website ditto like i have given to you images make the website ditto like that only make all th pages exactly like that only iwthtou any isue and this things Fredoka
+
+Google Fonts ↗
+
+60px70px0700h1
+
+#FFF
+
+Fredoka, serif Nunito
+
+Google Fonts ↗
+
+24px34px0400p
+
+#FFF
+
+Nunito, serif ver over any text to see its font. Click the text for more details.
+
+Exit WhatFont
+
+Vujahday Script
+
+Google Fonts ↗
+
+40px38px0400div
+
+#811A5A
+
+"Vujahday Script", serif and this #811c58 make the website exactly like this only make all pages so that i can open it and asee all th seciton of the pagese ads emetnioedn in the images
 
 This project was built with [Lovable](https://lovable.dev).
 
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/adfe2740-cb07-456f-86d3-061de959f1cf).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +50,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS

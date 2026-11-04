@@ -1,24 +1,24 @@
 import { Link } from "@tanstack/react-router";
-import { Flower2 } from "lucide-react";
+import logoAsset from "@/assets/saanidhya-logo.svg.asset.json";
 
 export function Logo({ light = false }: { light?: boolean }) {
   return (
-    <Link to="/" className="flex items-center gap-2.5">
-      <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full bg-brand-yellow/15">
-        <Flower2 className="h-8 w-8 text-brand-yellow" fill="currentColor" strokeWidth={1.5} />
-      </span>
-      <span className="leading-none">
-        <span
-          className={`block font-display text-2xl font-semibold tracking-tight ${
-            light ? "text-white" : "text-brand-maroon"
-          }`}
-        >
-          Saanidhya
+    <Link to="/" aria-label="Saanidhya Care Foundation — home">
+      {light ? (
+        <span className="inline-flex rounded-xl bg-white px-3 py-2">
+          <img
+            src={logoAsset.url}
+            alt="Saanidhya Care Foundation"
+            className="h-10 w-auto"
+          />
         </span>
-        <span className="block text-[10px] font-bold uppercase tracking-[0.22em] text-brand-yellow">
-          Care Foundation
-        </span>
-      </span>
+      ) : (
+        <img
+          src={logoAsset.url}
+          alt="Saanidhya Care Foundation"
+          className="h-11 w-auto"
+        />
+      )}
     </Link>
   );
 }
